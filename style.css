@@ -57,7 +57,27 @@ p {
     text-align: center;
 }
 
+.tkpoisa {
+    display: flex;
+    margin-bottom: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .alu {
-    height: 30px;
-    border-width: 40px;
+    width: 25%;
+    height: 100%;
+    padding-left: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0.4px 0.4px 0.4px gray;
+    font-style: italic;
+}
+
+#ata {
+    width: 25%;
+    height: 35%;
+    margin: 5px;
+    box-shadow: 2px 2px 4px red;
+    color: red;
 }
