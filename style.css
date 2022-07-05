@@ -59,7 +59,7 @@ p {
 
 .tkpoisa {
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -80,4 +80,8 @@ p {
     margin: 5px;
     box-shadow: 2px 2px 4px red;
     color: red;
+}
+
+#center {
+    text-align: center;
 }
