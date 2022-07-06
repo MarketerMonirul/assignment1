@@ -47,9 +47,9 @@ p {
 
 .link-button {
     text-decoration: none;
-    background-color: orange;
+    background-color: tomato;
     padding: 35px 55px;
-    border-radius: 22px;
+    border-radius: 42px;
     font-size: xx-large;
 }
 
@@ -64,14 +64,25 @@ p {
     padding-right: 150px;
 }
 
+.from {
+    text-align: center;
+}
+
+#blank {
+    padding-bottom: 15px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
 .alu {
     width: 25%;
     height: 100%;
     padding-left: 15px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
     box-shadow: 0.4px 0.4px 0.4px gray;
     font-style: italic;
+    text-align: center;
 }
 
 #ata {
@@ -80,8 +91,51 @@ p {
     margin: 5px;
     box-shadow: 2px 2px 4px red;
     color: red;
+    border: 2px solid red;
 }
 
-#center {
+.tel {
     text-align: center;
+}
+
+.font {
+    font-weight: 100;
+    font-size: medium;
+}
+
+.flex {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.gray {
+    box-shadow: 10px 10px 25px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.tomato {
+    box-shadow: 10px 10px 25px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.orange {
+    box-shadow: 10px 10px 25px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+
 }
